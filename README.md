@@ -32,7 +32,6 @@ The layout adapts to different screen sizes and maintains usability across devic
 ![image](https://github.com/user-attachments/assets/47c418e2-956f-489a-a19b-7bc396d51d57)
 
 
-> ⚠️ Replace the above paths with actual image paths when uploading to GitHub.
 
 ## 📦 Built With
 
