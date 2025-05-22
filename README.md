@@ -1,70 +1,85 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 🍽️ FoodBooking System
 
-In the project directory, you can run:
+A sleek and interactive React application where users can browse a food menu, add items to their cart, manage quantities, and track prep time with a countdown timer. Designed for an intuitive user experience, the FoodBooking System mimics the essential features of a real-world hotel food ordering interface.
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ **Dynamic Food Menu**
+Display a list of food items with name, description, preparation time, and price.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ **Add to Cart Functionality**
+Easily add any food item to the cart with a single click.
 
-### `npm test`
+✅ **Quantity Management**
+Users can increment (`+`) or decrement (`-`) the quantity of each item in the cart.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ **Live Countdown Timer**
+Each item in the cart has a live timer showing the remaining preparation time (in seconds).
 
-### `npm run build`
+✅ **Remove Items**
+Cart items can be removed individually using the `Remove` button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ **Real-time Total Cost**
+The total cost is automatically updated as you add, remove, or change quantities of items.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ **Responsive UI**
+The layout adapts to different screen sizes and maintains usability across devices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Screenshots
 
-### `npm run eject`
+![image](https://github.com/user-attachments/assets/47c418e2-956f-489a-a19b-7bc396d51d57)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> ⚠️ Replace the above paths with actual image paths when uploading to GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Built With
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* React.js
+* HTML & CSS
+* JavaScript (ES6+)
 
-## Learn More
+## 🛠️ Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Node.js
+* npm or yarn
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/yourusername/FoodBooking-System.git
+cd FoodBooking-System
+npm install
+npm start
+```
 
-### Analyzing the Bundle Size
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+FoodBooking-System/
+│
+├── src/
+│   ├── components/
+│   │   ├── MenuItem.js
+│   │   ├── Cart.js
+│   │   └── Timer.js
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── public/
+├── package.json
+└── README.md
+```
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Advanced Configuration
+## 📃 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open-source and available 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
